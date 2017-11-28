@@ -5,4 +5,5 @@
     <string name="greenMenuItemTxt">"GREEN</string>
     <string name="blueMenuItemTxt">"BLUE</string>
     <string name="defaultMenuItemTxt">"DEFAULT"</string>
+    <string name="textColorTxt">TEXT COLOR</string>
 </resources>

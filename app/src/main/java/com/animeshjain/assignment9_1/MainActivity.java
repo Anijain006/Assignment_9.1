@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 //    onCreateOptionMenu method to implement MenuInflater
+
     @Override
+
     public boolean onCreateOptionsMenu(Menu menu) {
-
-        getMenuInflater().inflate(R.menu.menu, menu);
-
+        getMenuInflater().inflate(R.menu.main_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
-//    onOptionItemSelected Method to set operation for every item in the option Menu selected
+//        onOptionItemSelected Method to set operation for every item in the option Menu selected
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(this, "You Selected "+item.toString()+" Option",Toast.LENGTH_SHORT).show();
             }break;
+            case R.id.textColor:
+                break;
             default: {
 //                Setting Color of text to Black if any other option is selected from the menu
                 colorChangingTxt.setTextColor(this.getResources().getColor(R.color.defaultColor));
