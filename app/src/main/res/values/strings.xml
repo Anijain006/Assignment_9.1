@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment 9.1</string>
+    <string name="colorChangingText">This Text Will Change Color.</string>
+    <string name="redMenuItemTxt">"RED"</string>
+    <string name="greenMenuItemTxt">"GREEN</string>
+    <string name="blueMenuItemTxt">"BLUE</string>
+    <string name="defaultMenuItemTxt">"DEFAULT"</string>
+</resources>
